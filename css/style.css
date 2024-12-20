@@ -1,0 +1,127 @@
+body {
+    background-color: #a0e3ea; /* Cambia este color al que prefieras */
+    font-family: Arial, sans-serif;
+}
+
+.efecto:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #471eec;
+    -webkit-box-shadow: 0px 0px 15px 15px #1ebcec;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/* Cabecera */
+header {
+    text-align: center;
+    background-color: #4c4faf;
+    color: white;
+    padding: 20px 0;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid  #1c6272;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+a {
+    color: rgb(15, 20, 112);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*estilos del formulario :8:35*/
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.contact-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+  
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.contact-form button {
+    background: #471eec;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+  
+.contact-form button:hover {
+    background: #471eec;
+}
+  
+#statusMessage {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* fin de estilo base*/
+
+/* Media Queries*/
+
+@media (max-width: 768px){
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gallery .images{
+        gap: 2rem;
+    }
+    .gallery img{
+        width: 80%;
+        max-width: 200px;
+    }
+
+}
+
+@media (max-width: 480px){
+    header h1{
+        font-size: 1.0rem;
+
+    }
+   
+}  
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color:#4c4faf;
+    color: white;
+    margin-top: 20px;
+}

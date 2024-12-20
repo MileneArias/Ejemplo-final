@@ -1,0 +1,30 @@
+body {
+    background-color: #a0a0ea;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #098a77;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #8af1f1;
+}
+tr:hover {
+    background-color: #4a13f0;
+}
+img {
+    width: 100px;
+    height: auto;
+}
+
+.efecto:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
